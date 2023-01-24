@@ -248,7 +248,7 @@ function finalresults()
   thepinkflag();
   console.log(more50f,btw25_50f,less25f)
   if(Score>5){
-    woztell("http://localhost:7000/mha/report/"+submission_id,phone);
+    woztell("https://mha.onrender.com/mha/report/"+submission_id,phone);
   if(more50f>btw25_50f && more50f>less25f)
   { console.log("more50");
   let Sc=ODD[0];
@@ -274,7 +274,7 @@ function finalresults()
   }
   else
   {
-    woztell("http://localhost:7000/mha/report/"+submission_id,phone);
+    woztell("https://mha.onrender.com/mha/report/"+submission_id,phone);
     if(Score>=5 && numberYes>0){
       console.log("55ACED");
       let f=theyes();
