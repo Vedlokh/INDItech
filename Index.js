@@ -377,7 +377,7 @@ pdf
 //   res.send(responseString);  
 // })
  
-app.listen(7000, (req,res) => {
+app.listen(process.env.PORT, (req,res) => {
   console.log(res)
   
   console.log('Our express server is up on port 7000' );
