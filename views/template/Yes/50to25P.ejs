@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body{
+            background-color: #F6F6F6; 
+            margin: 0;
+            padding: 0;
+        }
+        h1,h2,h3,h4,h5,h6{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 95%;
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+      
+        .brand-section{
+           
+           padding: 10px 40px;
+        }
+        .logo{
+            width: 50%;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col-6{
+            width: 50%;
+            flex: 0 0 auto;
+        }
+        .text-white{
+            color: #fff;
+        }
+        .company-details{
+            float: right;
+            text-align: right;
+        }
+        .body-section{
+            padding: 16px;
+            border: 1px solid gray;
+        }
+        .heading{
+            font-size: 20px;
+            margin-bottom: 08px;
+        }
+        .sub-heading{
+            color: #262626;
+            margin-bottom: 05px;
+        }
+        table{
+            background-color: #fff;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table thead tr{
+            border: 1px solid #111;
+            background-color: #f2f2f2;
+        }
+        table td {
+            vertical-align: middle !important;
+            text-align: center;
+        }
+        table th, table td {
+            padding-top: 08px;
+            padding-bottom: 08px;
+        }
+        .table-bordered{
+            box-shadow: 0px 0px 5px 0.5px gray;
+        }
+        .table-bordered td, .table-bordered th {
+            border: 1px solid #dee2e6;
+        }
+        .text-right{
+            text-align: end;
+        }
+        .w-20{
+            width: 20%;
+        }
+        .float-right{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="brand-section">
+            <div class="row">
+               
+                
+            </div>
+        </div>
+       <h1> EQUIPOISE Learning Private Limited</h1>
+        <div class="body-section">
+            <div class="row">
+                <div class="col-6">
+                  
+                    <h2 class="heading">Full Name: <%=name%></h2>
+                    <p class="sub-heading">Age:<%=age%></p>
+                    <p class="sub-heading">Gender:<%=gender%></p>
+                    <p class="sub-heading">Email Address:<%=email79%>  </p>
+                </div>
+                <div class="col-6">
+                    <p class="sub-heading"> Date :<%=date%></p>
+                </br>
+                    <p class="sub-heading">Assessment is Filled by: <%=theresponses%></p>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="body-section">
+            <h3 class="heading">Dear Patient			</h3>		
+                <h4>Thank you for filling the screening form.		</h4>	
+            <br>
+            <table class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        
+                        <th class="w-40">Answer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <tr>	<td>	Seems sad, cries a lot					</td>	<td>	<%=	q1	%>	</td>	</tr>
+<tr>	<td>	Is difficult to comfort when crying (hurt or distressed)					</td>	<td>	<%=	q2	%>	</td>	</tr>
+<tr>	<td>	Frequent Temper Tantrums					</td>	<td>	<%=	q3	%>	</td>	</tr>
+<tr>	<td>	Shyness in facing new experiences					</td>	<td>	<%=	q4	%>	</td>	</tr>
+<tr>	<td>	Is easily distracted					</td>	<td>	<%=	q5	%>	</td>	</tr>
+<tr>	<td>	Intentionally hurts others (biting, hitting, kicking)					</td>	<td>	<%=	q6	%>	</td>	</tr>
+<tr>	<td>	Doesn’t seem to listen to adults talking to him/her					</td>	<td>	<%=	q7	%>	</td>	</tr>
+<tr>	<td>	Battles over food and eating					</td>	<td>	<%=	q8	%>	</td>	</tr>
+<tr>	<td>	Is irritable, easily annoyed & excessive whining					</td>	<td>	<%=	q9	%>	</td>	</tr>
+<tr>	<td>	Resistant to cooperate with adults & is defiant					</td>	<td>	<%=	q10	%>	</td>	</tr>
+<tr>	<td>	Breaks things during tantrums					</td>	<td>	<%=	q11	%>	</td>	</tr>
+<tr>	<td>	Is easily startled or scared					</td>	<td>	<%=	q12	%>	</td>	</tr>
+<tr>	<td>	Not able to share with other children					</td>	<td>	<%=	q13	%>	</td>	</tr>
+<tr>	<td>	Has trouble mixing & interacting with other children					</td>	<td>	<%=	q14	%>	</td>	</tr>
+<tr>	<td>	Fidgets, can’t sit quietly					</td>	<td>	<%=	q15	%>	</td>	</tr>
+<tr>	<td>	Is clingy,doesn’t want to separate from parent					</td>	<td>	<%=	q16	%>	</td>	</tr>
+<tr>	<td>	Is very scared of certain things (Dark,needles,insects)					</td>	<td>	<%=	q17	%>	</td>	</tr>
+<tr>	<td>	Reacts too emotionally to small things					</td>	<td>	<%=	q18	%>	</td>	</tr>
+<tr>	<td>	Sometimes freezes or looks very still when scared					</td>	<td>	<%=	q19	%>	</td>	</tr>
+<tr>	<td>	Extremely “rigid” about routines, becoming extremely upset when things are changed					</td>	<td>	<%=	q20	%>	</td>	</tr>
+<tr>	<td>	Repeated Nightmares, Night terrors and awakening from sleep					</td>	<td>	<%=	q21	%>	</td>	</tr>
+<tr>	<td>	Easily exhausted,listless & Apathetic					</td>	<td>	<%=	q22	%>	</td>	</tr>
+<tr>	<td>	Has a hard time paying attention to tasks or activities					</td>	<td>	<%=	q23	%>	</td>	</tr>
+<tr>	<td>	Interrupts frequently					</td>	<td>	<%=	q24	%>	</td>	</tr>
+<tr>	<td>	Loss of previously attained developmental milestone (toilet training)					</td>	<td>	<%=	q25	%>	</td>	</tr>
+<tr>	<td>	Has more picky eating than usual					</td>	<td>	<%=	q26	%>	</td>	</tr>
+<tr>	<td>	Has unusual repetitive behaviors (Aggression with a doll,rocking etc)					</td>	<td>	<%=	q27	%>	</td>	</tr>
+<tr>	<td>	Might wander off if not supervised					</td>	<td>	<%=	q28	%>	</td>	</tr>
+<tr>	<td>	Has a hard time falling asleep & staying asleep					</td>	<td>	<%=	q29	%>	</td>	</tr>
+<tr>	<td>	Doesn’t seem to have much fun & less interested in activities					</td>	<td>	<%=	q30	%>	</td>	</tr>
+<tr>	<td>	Is too friendly with strangers					</td>	<td>	<%=	q31	%>	</td>	</tr>
+<tr>	<td>	Is learning or developing more slowly than other children					</td>	<td>	<%=	q32	%>	</td>	</tr>
+<tr>	<td>	Has breath holding,startles,hiccups etc					</td>	<td>	<%=	q33	%>	</td>	</tr>
+<tr>	<td>	Are you concerned about this child’s emotional or behavioral development?					</td>	<td>	<%=	star1	%>	</td>	</tr>
+<tr>	<td>	Was your child diagnosed with any previous illness/disease/developmental delay?					</td>	<td>	<%=	star2	%>	</td>	</tr>
+<tr>	<td>	As a caregiver I feel down, depressed, or hopeless					</td>	<td>	<%=	q34	%>	</td>	</tr>
+<tr>	<td>	As a caregiver I feel little interest or pleasure in doing things					</td>	<td>	<%=	q35	%>	</td>	</tr>
+<tr>	<td>	As a caregiver I feel too stressed to enjoy this child					</td>	<td>	<%=	q36	%>	</td>	</tr>
+<tr>	<td>	As a caregiver I get more frustrated than I want to with this child’s behavior					</td>	<td>	<%=	q37	%>	</td>	</tr>
+<tr>	<td>	Experiencing single event, a series of connected traumatic events or chronic enduring stress					</td>	<td>	<%=	q38	%>	</td>	</tr>
+<tr>	<td>	If Yes, Please mention the events here					</td>	<td>		</td>	</tr>
+<tr>	<td>	Parental abuse or neglect					</td>	<td>	<%=	q39	%>	</td>	</tr>
+<tr>	<td>	Frequent changes in the caregiver					</td>	<td>	<%=	q40	%>	</td>	</tr>
+<tr>	<td>	Change in immediate environment (Beginning day care, shifting home, parent returning to work, arrival of new sibling)					</td>	<td>	<%=	q41	%>	</td>	</tr>
+<tr>	<td>	Maternal depression or any other mental illness at home.					</td>	<td>	<%=	q42	%>	</td>	</tr>
+<tr>	<td>	Physical or sexual abuse					</td>	<td>	<%=	q43	%>	</td>	</tr>
+<tr>	<td>	Divorce					</td>	<td>	<%=	q44	%>	</td>	</tr>
+<tr>	<td>	Substance abuse					</td>	<td>	<%=	q45	%>	</td>	</tr>
+<tr>	<td>	Imprisoned Relative					</td>	<td>	<%=	q46	%>	</td>	</tr>
+
+                    As per our assessment, no concerns have been observed in your child.				
+                     
+                 
+                    
+                </tbody>
+            </table>
+            <br>
+            <h5>We advise you get in touch with your pediatrician urgently to get connected for further thorough evaluation, referral and treatment				
+            </h5>
+        </div>
+        <div class="body-section">
+           <b> Disclaimer:</b>				
+"Kindly note, this report is purely based on the information submitted by patient's parents.
+Incorrect information provided by parents willl result in incorrect report."				
+        </div>
+
+        <div class="body-section">
+            <p>EQUIPOISE Learning Private Limited	<br>		
+                The ISO 9001-2015 Certified		<br>		
+                Emotional Intelligence Research & Training Organisation	<br>			
+                https://www.equipoiselearning.com	<br>			
+                Contact us: +91 9004806077 | equip2006@gmail.com.<br>	
+            </p>
+        </div>      
+    </div>      
+    
+</body>
+</html>
+
