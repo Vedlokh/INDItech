@@ -323,12 +323,12 @@ function calculation(){
    post=Disoder([q1,q4,q5,q9,q12,q15,q18,q22,q30,q33],10,"Post",arrayofYesAndNo);
    reactive=Disoder([q2,q6,q7,q16,q18,q19,q31,q32],8,"Reactive",arrayofYesAndNo);
    general=Disoder([q4,q12,q15,q16,q17,q21],6,"Gereral",arrayofYesAndNo);
-   separation=Disoder([q4,q16],2,"Separation",arrayofYesAndNo);
+   separation=Disoder([q4,q14,q16],3,"Separation",arrayofYesAndNo);
    depression=Disoder([q1,q2,q18,q23,q30],5,"Depression",arrayofYesAndNo);
    mood=Disoder([q1,q2,q3,q6,q9,q11,q16],7,"Mood",arrayofYesAndNo);
    regulatory=Disoder([q1,q2,q3,q5,q6,q9,q11,q12,q15,q17,q18,q20,q24,q29,q32],15,"Regulatory",arrayofYesAndNo);
    sleep=Disoder([q26,q27],2,"Sleep",arrayofYesAndNo);
-   obsessive=Disoder([q21,q27],2,"Obsessive",arrayofYesAndNo);
+   obsessive=Disoder([q20,q27],2,"Obsessive",arrayofYesAndNo);
    Eating=Disoder([q8,q26],2,"Eating",arrayofYesAndNo);
    disinhited=Disoder([q31],1,"Disinhited",arrayofYesAndNo);
   finalresults();
