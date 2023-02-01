@@ -327,7 +327,7 @@ function calculation(){
    depression=Disoder([q1,q2,q18,q23,q30],5,"Depression",arrayofYesAndNo);
    mood=Disoder([q1,q2,q3,q6,q9,q11,q16],7,"Mood",arrayofYesAndNo);
    regulatory=Disoder([q1,q2,q3,q5,q6,q9,q11,q12,q15,q17,q18,q20,q24,q29,q32],15,"Regulatory",arrayofYesAndNo);
-   sleep=Disoder([q26,q27],2,"Sleep",arrayofYesAndNo);
+   sleep=Disoder([q21,q29],2,"Sleep",arrayofYesAndNo);
    obsessive=Disoder([q20,q27],2,"Obsessive",arrayofYesAndNo);
    Eating=Disoder([q8,q26],2,"Eating",arrayofYesAndNo);
    disinhited=Disoder([q31],1,"Disinhited",arrayofYesAndNo);
