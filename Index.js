@@ -218,7 +218,7 @@ function calScore()
   PRiskRate=Pflag/t;
   (MRiskT=PRiskRate>50)
 
-  TotRisk=(DScore/t)*100;
+  TotRisk=(DScore/(t*2))*100;
 if(TotRisk<=25)
 {less25=1;less25f=less25f+1}
 else if(TotRisk>25 & TotRisk<50)
